@@ -1,0 +1,37 @@
+.back{
+    background-color: #101630;
+}
+
+
+.nv{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 70px;
+}
+
+.ult{
+    display: flex;
+    gap:70px;
+    align-items: center;
+}
+
+.ult a:hover{
+    color: #52bce6;
+}
+
+.btn{
+    background:linear-gradient(to right,#4d9dd6,#4724be);
+    padding: 16px 40px;
+    border-radius: 10px;
+    
+}
+
+.btn:hover{
+    filter: drop-shadow(2px 2px 15px rgba(15, 211, 241, 0.5));
+    transition: 0.3s ease;
+}
+
+.cin{
+    font-family: 'Cinzel',serif;
+    font-size: 80px;
+}
