@@ -5,51 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
-    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" /> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="back">
+<body style="background-color:#101630;">
 
     <header id="Home" style="color: #ffffff ;">
 
-        <nav class="nv">
+        <nav class="px-6 py-3">
 
-            <div>
-                <img src="https://scontent.fktm12-1.fna.fbcdn.net/v/t1.15752-9/490877665_998903755728667_7997609372015864095_n.png?_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=6wawjQeAJ5QQ7kNvwGLnqe_&_nc_oc=AdklBwE8HGDM5TgdlNsXU3fKLNWRDa3QhQVlH1hUxc3IA7bOAE6AWW3S6-iuf0BSc7o&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fktm12-1.fna&oh=03_Q7cD2AFsfEDwY1WwnwsdT1KD9rCh1O6co_K88u1DSXS63vkEnQ&oe=682EA516"
-                    style="width: 120px;" alt="Logo">
+            <div class="flex justify-between px-2 py-1 border-1 rounded-xl shadow-lg shadow-cyan-500/50">
+                <div>
+                    <img src="https://scontent.fktm12-1.fna.fbcdn.net/v/t1.15752-9/490877665_998903755728667_7997609372015864095_n.png?_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=6wawjQeAJ5QQ7kNvwGLnqe_&_nc_oc=AdklBwE8HGDM5TgdlNsXU3fKLNWRDa3QhQVlH1hUxc3IA7bOAE6AWW3S6-iuf0BSc7o&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fktm12-1.fna&oh=03_Q7cD2AFsfEDwY1WwnwsdT1KD9rCh1O6co_K88u1DSXS63vkEnQ&oe=682EA516"
+                        style="width: 120px;" alt="Logo">
+                </div>
+    
+                <ul class="flex gap-[70px] items-center">
+                    <li>
+                        <a class="hover:text-[#52bce6]" href="#Home">HOME</a>
+                    </li>
+    
+                    <li>
+                        <a class="hover:text-[#52bce6]" href="#abtme">ABOUT ME</a>
+                    </li>
+    
+                    <li>
+                        <a class="hover:text-[#52bce6]" href="#portfolio">PORTFOLIO</a>
+                    </li>
+    
+                    <li>
+                        <a class="hover:text-[#52bce6]" href="#services">SERVICES</a>
+                    </li>
+    
+                    <li>
+                        <a class="hover:text-[#52bce6]" href="#skills">SKILLS</a>
+                    </li>
+    
+                    <li>
+                        <a href="#contact" class="bg-gradient-to-r from-[#4d9dd6] to-[#4724be] text-white px-[16px] py-[16px] rounded-[10px] transition-all duration-300 ease-in-out hover:shadow-lg shadow-[#0fd3f180]">CONTACT</a>
+
+                    </li>
+                </ul>
             </div>
 
-            <ul class="ult">
-                <li>
-                    <a href="#Home">HOME</a>
-                </li>
-
-                <li>
-                    <a href="#abtme">ABOUT ME</a>
-                </li>
-
-                <li>
-                    <a href="#portfolio">PORTFOLIO</a>
-                </li>
-
-                <li>
-                    <a href="#services">SERVICES</a>
-                </li>
-
-                <li>
-                    <a href="#skills">SKILLS</a>
-                </li>
-
-                <li>
-                    <a href="#contact" class="btn" style="color: #ffffff;">CONTACT</a>
-
-                </li>
-            </ul>
         </nav>
 
         <div class="container">
@@ -178,11 +181,13 @@
             </h2>
             <div class="skillset">
                 <div class="skills">
-                    <i style="color: #ea4436;" class="fa-brands fa-html5"></i>
+                    <i style="color: #ea4436;" class="fa-brands fa-html5"></i> 
+                    <p>HTML</p>
                 </div>
 
                 <div class="skills">
-                    <i style="color: #48a8f5;" class="fa-brands fa-css3"></i>
+                    <i style="color: #48a8f5;" class="fa-brands fa-css3"></i> 
+                    <p>CSS</p>
                 </div>
             </div>
         </div>
@@ -240,16 +245,24 @@
                 </div>
                 <div class="srs">
                     <div class="lgs">
-                        <i class="fa-brands fa-facebook-f"></i>
+                        <a href="https://www.facebook.com/SayokFB/" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>   
                     </div>
                     <div class="lgs">
-                        <i class="fa-brands fa-instagram"></i>
+                        <a href="https://www.instagram.com/sayokig/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
                     </div>
                     <div class="lgs">
-                        <i class="fa-brands fa-github"></i>
+                        <a href="https://github.com/SayokRai" target="_blank">
+                             <i class="fa-brands fa-github"></i>
+                        </a>
                     </div>
                     <div style="margin-right: 97px;" class="lgs">
-                        <i class="fa-brands fa-linkedin-in"></i>
+                        <a href="https://www.linkedin.com/in/sayok-rai-b0823235b/" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
                     </div>
                 </div>
 
