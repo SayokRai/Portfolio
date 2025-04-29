@@ -13,37 +13,17 @@ html{
     transition: 0.3s ease;
 }
 
-.cin h1 {
-    font-family: 'Cinzel', serif;
-    font-size: 80px;
-    /* display: inline-block; */
-    margin: 0;
-    /* Remove default margin */
-    line-height: 0.8;
-    font-weight: bold;
-}
-
-.full-stop {
-    color: #4fb7dc;
-    font-size: 35px;
-    margin-top: 30px;
-    margin-left: 10px;
-}
-
 .container {
     /* margin-left: 80px;
     margin-top: 40px; */
     padding: 95px;
-    margin-top: -50px;
+    margin-top: 0;
+    padding-top: 50px;
 }
 
 .pic {
     height: 500px;
-    width: 200pc;
-    border-radius: 15px;
-    border: 18px #4fb7dc solid;
-
-
+    width: 800px;
 }
 
 .arrow {
@@ -70,10 +50,6 @@ div.pic {
     left: 30px;
 }
 
-.ab {
-    font-size: 30px;
-}
-
 .foot {
     background: linear-gradient(to right, #4932c1, #509cd6);
     color: #fff;
@@ -98,23 +74,6 @@ div.pic {
 
 .des {
     padding-right: 180px;
-}
-
-.grc {
-    color: #848893;
-}
-
-.res {
-    border: 3px #4a40c3 solid;
-    border-radius: 10px;
-    padding: 16px 40px;
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-.res:hover{
-    filter: drop-shadow(2px 2px 15px rgba(15, 211, 241, 0.5));
-    transition: 0.3s ease;   
 }
 
 .btn-form{

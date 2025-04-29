@@ -13,41 +13,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-color:#101630;">
+<body id="Home" style="background-color:#101630;">
 
-    <header id="Home" style="color: #ffffff ;">
+    <header class="text-white sticky top-0 z-10">
 
-        <nav class="px-6 py-3">
+        <nav class="px-6 py-5 bg-[#101630]">
 
-            <div class="flex justify-between px-2 py-1 border-1 rounded-xl shadow-lg shadow-cyan-500/50">
+            <div class="flex justify-between px-2 py-1 border-1 rounded-xl shadow-lg shadow-[#4fb7dc]">
                 <div>
                     <img src="https://scontent.fktm12-1.fna.fbcdn.net/v/t1.15752-9/490877665_998903755728667_7997609372015864095_n.png?_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=6wawjQeAJ5QQ7kNvwGLnqe_&_nc_oc=AdklBwE8HGDM5TgdlNsXU3fKLNWRDa3QhQVlH1hUxc3IA7bOAE6AWW3S6-iuf0BSc7o&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fktm12-1.fna&oh=03_Q7cD2AFsfEDwY1WwnwsdT1KD9rCh1O6co_K88u1DSXS63vkEnQ&oe=682EA516"
                         style="width: 120px;" alt="Logo">
                 </div>
-    
-                <ul class="flex gap-[70px] items-center">
+
+                <ul class="flex gap-[100px] items-center">
                     <li>
                         <a class="hover:text-[#52bce6]" href="#Home">HOME</a>
                     </li>
-    
+
                     <li>
                         <a class="hover:text-[#52bce6]" href="#abtme">ABOUT ME</a>
                     </li>
-    
+
                     <li>
                         <a class="hover:text-[#52bce6]" href="#portfolio">PORTFOLIO</a>
                     </li>
-    
+
                     <li>
                         <a class="hover:text-[#52bce6]" href="#services">SERVICES</a>
                     </li>
-    
+
                     <li>
                         <a class="hover:text-[#52bce6]" href="#skills">SKILLS</a>
                     </li>
-    
+
                     <li>
-                        <a href="#contact" class="bg-gradient-to-r from-[#4d9dd6] to-[#4724be] text-white px-[16px] py-[16px] rounded-[10px] transition-all duration-300 ease-in-out hover:shadow-lg shadow-[#0fd3f180]">CONTACT</a>
+                        <a href="#contact"
+                            class="bg-gradient-to-r from-[#4d9dd6] to-[#4724be] text-white px-[16px] py-[16px] rounded-[10px] transition-all duration-300 ease-in-out hover:shadow-lg shadow-[#0fd3f180] mr-[10px]">CONTACT</a>
 
                     </li>
                 </ul>
@@ -55,27 +56,35 @@
 
         </nav>
 
+
+
+    </header>
+
+    <main style="color: #ffffff;">
         <div class="container">
 
             <b style="color:#848893;font-size: 40px;">
                 I' m a
             </b>
 
-            <div class="cin">
+            <div class="font-[Cinzel] text-[80px]/[0.8]">
                 <h1>FRONT-END</h1>
                 <h1>WEBSITE</h1>
                 <div class="flex">
                     <h1>
                         DEVELOPER
                     </h1>
-                    <b class="full-stop">
+
+                    <b class="text-[#4fb7dc] text-[43px] ml-[10px] mt-[35px]">
                         ■
                     </b>
                 </div>
 
             </div>
-            <div class="btn" style="text-align: center;width: 260px;height: 70;font-size: 20px;">
-                <a href="#">
+            <br>
+            <div class="bg-gradient-to-r from-[#4d9dd6] to-[#4724be] text-white px-[16px] py-[16px] rounded-[10px] transition-all duration-300 ease-in-out hover:shadow-lg shadow-[#0fd3f180]"
+                style="text-align: center;width: 260px;height: 70;font-size: 20px;">
+                <a href="#projects">
                     <b>
                         Previous Projects
                     </b>
@@ -85,39 +94,42 @@
                 <i class="fa-solid fa-arrow-down"></i>
             </div>
         </div>
+        <!-- style="display: flex;gap: 100px;padding-top: 128px;" -->
+        <div id="abtme" class="flex gap-[100px] pt-[128px] pr-[95px] pl-[95px] mt-[-50px]">
+            <div>
 
-    </header>
-
-    <main style="color: #ffffff;">
-        <div style="display: flex;gap: 100px;" class="container">
-            <div class="bds">
-                <img class="pic"
-                    src="https://scontent.fktm6-1.fna.fbcdn.net/v/t1.15752-9/491021656_1838102593647227_2421851460676353451_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=i711Yg_3pJQQ7kNvwGH_XXV&_nc_oc=AdlhFrg2uazR-wBEsiGb_4etTstYuYUg-9IiO1H6bL63VmN3NCL-NICy0XqEG_4A2kY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fktm6-1.fna&oh=03_Q7cD2AGd43TLy_oA2JVaTC2SZ3h9Pc4X5HtT8Wcoyn27iAom-w&oe=68328E6E"
+                <div class="h-[500px] w-[400px] rounded-[15px] border-[18px] border-[#4fb7dc] absolute top-[47pc] right-[730px]">
+                </div>
+                <img class="h-[500px] w-[200pc] relative rounded-[15px]"
+                    src="https://scontent.fktm19-1.fna.fbcdn.net/v/t1.15752-9/491126309_1387568942193998_5021892607590824708_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=4thgHJxDlDAQ7kNvwF9CDPU&_nc_oc=AdmDlLy7g2U_2P31USWknESD1IXAr2KZvcGap4dMiRNtGda4l4NpKL9Y71Hjzomy5Ffve15dbnkvOFHt-1l1VvrA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fktm19-1.fna&oh=03_Q7cD2AHYfvw9F5j2GFIw6u4o5aIwQxR7KvqXU14Yo-RRlevZ-w&oe=6836BCA0"
                     alt="Sayok">
             </div>
-            <div id="abtme">
-                <h2 class="ab">
+            <div>
+                <h2 class="text-[30px]">
                     <b>
                         ABOUT ME
                     </b>
                 </h2>
                 <br>
-                <p class="grc">My name is Sayok Rai, a dedicated student and the current president of the Interact Club
+                <p class="text-[#848893]">My name is Sayok Rai, a dedicated student and the current president of the Interact Club
                     at Depot School in Dharan, Nepal. I am passionate about youth leadership, community engagement, and
                     creating inclusive environments that inspire collaboration and creativity. Through my role, I have
                     led various initiatives aimed at fostering participation and making service-oriented activities both
                     impactful and enjoyable. Outside of academics and leadership, I enjoy playing basketball and chess,
                     and I find joy in caring for my pets—a smart dog named Haru and a unique cat named Chintu. I am
                     committed to continuous growth and contributing meaningfully to every opportunity I pursue.</p> <br>
-                <div class="flex" style="gap: 30px;">
-                    <div class="btn" style="padding-right: 60px;padding-left: 60px;">
+                <div class="flex gap-[30px]">
+                    <div class="bg-gradient-to-r from-[#4d9dd6] to-[#4724be] text-white px-[60px] py-[16px] rounded-[10px] transition-all duration-300 ease-in-out hover:shadow-lg shadow-[#0fd3f180]">
                         <p>
-                            <b>
-                                HIRE ME
-                            </b>
+                            <a href="#contact">
+                                <b>
+                                    HIRE ME
+                                </b>
+                            </a>
                         </p>
                     </div>
-                    <div class="res">
+
+                    <div class="border-[3px] border-[#4a40c3] rounded-[10px] px-[60px] py-[16px] transition-all duration-300 ease-in-out hover:shadow-lg shadow-[#0fd3f180]">
                         <b>
                             RESUME
                         </b>
@@ -127,7 +139,7 @@
         </div>
 
         <div class="container">
-            <h2 id="portfolio" style="text-align: center;" class="ab">
+            <h2 id="portfolio" class="text-[30px] text-center pt-[128px]">
                 <b>
                     PORTFOLIO
                 </b>
@@ -135,11 +147,12 @@
             <br>
             <div class="portsect">
                 <div>
-                    <a href="#projcts">
+                    <a href="#projects">
                         Projects
                     </a>
                     <div>
-                        <img id="projects" src="https://scontent.fktm1-1.fna.fbcdn.net/v/t1.15752-9/491270399_694208133092334_161711164119946495_n.png?stp=dst-png_s843x403&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=hoerlBhtwAAQ7kNvwH9gWb2&_nc_oc=Adl7BDfaEdnW0TvYCQRJ25wZGNgpz4JwtwuUcGirD_TuUDW7LEieYL-PbK4DdgND2TI8I9WUjHhbr3gLqVNrENZH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fktm1-1.fna&oh=03_Q7cD2AHCp9qdGTk3PvJYyiJmeHIznktsagznEsSqffTCezjjIw&oe=6833E320"
+                        <img id="projects"
+                            src="https://scontent.fktm1-1.fna.fbcdn.net/v/t1.15752-9/491270399_694208133092334_161711164119946495_n.png?stp=dst-png_s843x403&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=hoerlBhtwAAQ7kNvwH9gWb2&_nc_oc=Adl7BDfaEdnW0TvYCQRJ25wZGNgpz4JwtwuUcGirD_TuUDW7LEieYL-PbK4DdgND2TI8I9WUjHhbr3gLqVNrENZH&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fktm1-1.fna&oh=03_Q7cD2AHCp9qdGTk3PvJYyiJmeHIznktsagznEsSqffTCezjjIw&oe=6833E320"
                             alt="PabloPicassoBiographyProject">
                     </div>
                 </div>
@@ -159,7 +172,7 @@
         </div>
 
         <div class="container">
-            <h2 id="services" style="text-align: center;" class="ab">
+            <h2 id="services" class="text-[30px] text-center pt-[128px]">
                 <b>
                     SERVICES
                 </b>
@@ -169,24 +182,24 @@
                     Static Website Design
                 </div>
 
-            <div></div>
+                <div></div>
             </div>
         </div>
 
         <div class="container">
-            <h2 id="skills" style="text-align: center;" class="ab">
+            <h2 id="skills" class="text-[30px] text-center pt-[128px]">
                 <b>
                     SKILLS
                 </b>
             </h2>
             <div class="skillset">
                 <div class="skills">
-                    <i style="color: #ea4436;" class="fa-brands fa-html5"></i> 
+                    <i style="color: #ea4436;" class="fa-brands fa-html5"></i>
                     <p>HTML</p>
                 </div>
 
                 <div class="skills">
-                    <i style="color: #48a8f5;" class="fa-brands fa-css3"></i> 
+                    <i style="color: #48a8f5;" class="fa-brands fa-css3"></i>
                     <p>CSS</p>
                 </div>
             </div>
@@ -195,9 +208,10 @@
     </main>
 
 
-    <footer class="foot">
+    <footer id="contact" style="padding-top: 133px;">
+       <div class="foot">
         <br>
-        <h1 id="contact">
+        <h1>
             <b>
                 CONTACT
             </b>
@@ -211,16 +225,16 @@
             </div>
             <div class="btn-form">
                 <div
-                    style="margin-right: 20px;margin-left: 20px;margin-bottom: 10px;margin-top: 10px;padding-top: 30px;">
+                    style="margin-right: 20px;margin-left: 20px;margin-bottom: 10px;margin-top: 10px;padding-top: 10px;">
                     <form>
                         <div class="ttt">
-                            <input class="fom" type="text" name="name" id="name" placeholder="Name">
+                            <input class="fom px-2" type="text" name="name" id="name" placeholder="Name">
                         </div>
                         <div class="ttt">
-                            <input class="fom" type="email" name="email" id="email" placeholder="Email">
+                            <input class="fom px-2" type="email" name="email" id="email" placeholder="Email">
                         </div>
                         <div style="margin-bottom: 10px;">
-                            <textarea class="fom-msg" name="msg" id="msg" placeholder="Message  "></textarea>
+                            <textarea class="fom-msg px-2 py-2" name="msg" id="msg" placeholder="Message  "></textarea>
                         </div>
                         <div>
                             <button class="fom-btn" type="submit"><b>Send</b></button>
@@ -247,7 +261,7 @@
                     <div class="lgs">
                         <a href="https://www.facebook.com/SayokFB/" target="_blank">
                             <i class="fa-brands fa-facebook-f"></i>
-                        </a>   
+                        </a>
                     </div>
                     <div class="lgs">
                         <a href="https://www.instagram.com/sayokig/" target="_blank">
@@ -256,7 +270,7 @@
                     </div>
                     <div class="lgs">
                         <a href="https://github.com/SayokRai" target="_blank">
-                             <i class="fa-brands fa-github"></i>
+                            <i class="fa-brands fa-github"></i>
                         </a>
                     </div>
                     <div style="margin-right: 97px;" class="lgs">
@@ -268,6 +282,7 @@
 
             </div>
         </div>
+       </div>
         <!-- <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script> -->
         <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     </footer>
