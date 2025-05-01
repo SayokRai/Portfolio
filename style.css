@@ -50,39 +50,6 @@ div.pic {
     left: 30px;
 }
 
-.foot {
-    background: linear-gradient(to right, #4932c1, #509cd6);
-    color: #fff;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100PX;
-}
-
-.foot h1 {
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-.foot h2 {
-    font-size: 20px;
-}
-
-.cont {
-    display: flex;
-    padding-left: 95px;
-}
-
-.des {
-    padding-right: 180px;
-}
-
-.btn-form{
-    background: linear-gradient(to right, #4d9dd6, #4724be);
-    margin: 16px 100px;
-    border-radius: 10px;
-    filter: drop-shadow(2px 2px 15px #445ebb);
-}
-
 .fom{
     background-color: #101630;
     color: #9ca3a9;
@@ -115,10 +82,6 @@ div.pic {
 
 .fom-btn:hover{
     filter: drop-shadow(2px 2px 15px #445ebb);
-}
-
-.ttt{
-    margin-bottom: 5px;
 }
 
 .lgs{
