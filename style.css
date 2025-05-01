@@ -167,4 +167,7 @@ div.pic {
 .servs{
     background: linear-gradient(to right,);
 }
-
+body {
+    max-width: auto;
+    
+}
