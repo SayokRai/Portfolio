@@ -17,7 +17,7 @@
 
     <header class="text-white sticky top-0 z-10">
 
-        <nav class="rounded-xl bg-[#101630] mx-6 pt-4">
+        <nav class="rounded-xl bg-[#101630] mx-6 pt-4 hidden md:flex">
 
             <div class="flex justify-between border-1 rounded-xl shadow-lg shadow-[#808080] px-2 py-1 ">
                 <div>
@@ -90,28 +90,29 @@
                     </b>
                 </a>
             </div>
-            <div class="arrow">
+            <div class="arrow pt-[50px] lg:pt-[0]">
                 <i class="fa-solid fa-arrow-down"></i>
             </div>
         </div>
 
-        <div id="abtme" class="flex gap-[100px] pt-[128px] pr-[95px] pl-[95px] mt-[-50px]">
-            <div>
-
-                <div class="h-[500px] w-[400px] rounded-[15px] border-[18px] border-[#4fb7dc] absolute top-[47pc] right-[730px]">
-                </div>
-                <img class="h-[500px] w-[200pc] relative rounded-[15px]"
+        <div id="abtme" class="grid lg:grid-cols-3 gap-[100px] pt-[128px] pr-[95px] pl-[95px] mt-[-50px]">
+            <div class="yoo lg:col-span-1 relative">
+                <!-- <div
+                    class="h-[500px] w-[450px] -z-10 rounded-[15px] border-[18px] border-[#4fb7dc] absolute top-[47px] left-[40px]">
+                </div> -->
+                <img class="h-[500px] w-full rounded-[15px]"
                     src="https://scontent.fktm19-1.fna.fbcdn.net/v/t1.15752-9/491126309_1387568942193998_5021892607590824708_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=4thgHJxDlDAQ7kNvwF9CDPU&_nc_oc=AdmDlLy7g2U_2P31USWknESD1IXAr2KZvcGap4dMiRNtGda4l4NpKL9Y71Hjzomy5Ffve15dbnkvOFHt-1l1VvrA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fktm19-1.fna&oh=03_Q7cD2AHYfvw9F5j2GFIw6u4o5aIwQxR7KvqXU14Yo-RRlevZ-w&oe=6836BCA0"
                     alt="Sayok">
             </div>
-            <div>
+            <div class="lg:col-span-2">
                 <h2 class="text-[30px]">
                     <b>
                         ABOUT ME
                     </b>
                 </h2>
                 <br>
-                <p class="text-[#848893]">My name is Sayok Rai, a dedicated student and the current president of the Interact Club
+                <p class="text-[#848893]">My name is Sayok Rai, a dedicated student and the current president of the
+                    Interact Club
                     at Depot School in Dharan, Nepal. I am passionate about youth leadership, community engagement, and
                     creating inclusive environments that inspire collaboration and creativity. Through my role, I have
                     led various initiatives aimed at fostering participation and making service-oriented activities both
@@ -119,7 +120,8 @@
                     and I find joy in caring for my pets—a smart dog named Haru and a unique cat named Chintu. I am
                     committed to continuous growth and contributing meaningfully to every opportunity I pursue.</p> <br>
                 <div class="flex gap-[30px]">
-                    <div class="bg-gradient-to-r from-[#4d9dd6] to-[#4724be] text-white px-[60px] py-[16px] rounded-[10px] transition-all duration-300 ease-in-out hover:shadow-lg shadow-[#0fd3f180]">
+                    <div
+                        class="bg-gradient-to-r from-[#4d9dd6] to-[#4724be] text-white px-[60px] py-[16px] rounded-[10px] transition-all duration-300 ease-in-out hover:shadow-lg shadow-[#0fd3f180]">
                         <p>
                             <a href="#contact">
                                 <b>
@@ -129,7 +131,8 @@
                         </p>
                     </div>
 
-                    <div class="border-[3px] border-[#4a40c3] rounded-[10px] px-[60px] py-[16px] transition-all duration-300 ease-in-out hover:shadow-lg shadow-[#0fd3f180]">
+                    <div
+                        class="border-[3px] border-[#4a40c3] rounded-[10px] px-[60px] py-[16px] transition-all duration-300 ease-in-out hover:shadow-lg shadow-[#0fd3f180]">
                         <b>
                             RESUME
                         </b>
@@ -183,12 +186,16 @@
                 <div class="border-5 border-[#4a40c3] rounded-[15px] p-[10px] mx-[125px]">
                     <h1 class="text-center">Static Website Design</h1>
                     <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti numquam ratione, dolores necessitatibus accusantium fugiat et beatae, suscipit in commodi obcaecati dolore qui quibusdam! Obcaecati aliquam accusamus incidunt? Facere?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae corrupti numquam ratione,
+                        dolores necessitatibus accusantium fugiat et beatae, suscipit in commodi obcaecati dolore qui
+                        quibusdam! Obcaecati aliquam accusamus incidunt? Facere?</p>
                 </div>
                 <div class="border-5 border-[#4a40c3] rounded-[15px] p-[10px] mx-[125px]">
-                    <h1 class=text-center>Website Review</h1>
+                    <h1 class="text-center text-purple-1000">Website Review</h1>
                     <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non illum modi ipsum, tempore placeat a dolor repudiandae recusandae consequuntur at, minima ipsam ut et, perferendis temporibus itaque! Quam, quo modi?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non illum modi ipsum, tempore placeat a
+                        dolor repudiandae recusandae consequuntur at, minima ipsam ut et, perferendis temporibus itaque!
+                        Quam, quo modi?</p>
                 </div>
             </div>
         </div>
@@ -216,89 +223,102 @@
     </main>
 
     <footer id="contact" class="pt-[133px]">
-       <div class="bg-linear-to-r from-[#4932c1] to-[#509cd6] text-white rounded-t-[100px]">
-        <br>
-        <h1 class="text-center text-[30px] mb-[20px]">
-            <b>
-                CONTACT
-            </b>
-        </h1>
-        <div class="flex pl-[95px]">
-            <div class="pr-[180px]">
-                <h2 class="text-[20px]">
-                    <b>
-                        Drop Me a Message
-                    </b>
-                </h2>
-                <br>
-                <p class="text-[#afa8ec]">I provide services that will amaze you and maybe myself but do not be worried
-                    since I am still learning,if my service is not to your liking then please do not leave a bad review
-                    or badmouth me instead just hire me again for a later project.I really want money!!</p>
-            </div>
+        <div class="bg-linear-to-r from-[#4932c1] to-[#509cd6] text-white rounded-t-[100px]">
+            <br>
+            <h1 class="text-center text-[30px] mb-[20px]">
+                <b>
+                    CONTACT
+                </b>
+            </h1>
+            <div class="flex pl-[95px]">
+                <div class="pr-[180px]">
+                    <h2 class="text-[20px]">
+                        <b>
+                            Drop Me a Message
+                        </b>
+                    </h2>
+                    <br>
+                    <p class="text-[#afa8ec]">I provide services that will amaze you and maybe myself but do not be
+                        worried
+                        since I am still learning,if my service is not to your liking then please do not leave a bad
+                        review
+                        or badmouth me instead just hire me again for a later project.I really want money!!</p>
+                </div>
 
-            <div class="bg-linear-to-r from-[#4d9dd6] to-[#4724be] rounded-[10px] mx-[100px] my-[16px] drop-shadow-lg shadow-[#445ebb]">
-                <div class="mx-[20px] my-[10px] pt-[10px]">
-                    <form>
-                        <div class="mb-[5px]">
-                            <input class="text-[#9ca3a9] rounded-[10px] py-[10px] pr-[130px] pl-2 bg-[#101630]" type="text" name="name" id="name" placeholder="Name">
-                        </div>
-                        <div class="mb-[5px]">
-                            <input class="text-[#9ca3a9] rounded-[10px] py-[10px] pr-[130px] pl-2 bg-[#101630]" type="email" name="email" id="email" placeholder="Email">
-                        </div>
-                        <div class="mb-[10px]">
-                            <textarea class="text-[#9ca3a9] rounded-[10px] pt-[10px] pr-[147px] pb-[53px] pl-2 bg-[#101630]" name="msg" id="msg" placeholder="Message  "></textarea>
-                        </div>
-                        <div>
-                            <button class="bg-[#101630] text-[white] text-center px-[50px] text-[20px] py-[10px] rounded-[10px] hover:drop-shadow-xl/50 drop-shadow-black-500/50" type="submit"><b>Send</b></button>
-                        </div>
-                    </form>
+                <div
+                    class="bg-linear-to-r from-[#4d9dd6] to-[#4724be] rounded-[10px] mx-[100px] my-[16px] drop-shadow-lg shadow-[#445ebb]">
+                    <div class="mx-[20px] my-[10px] pt-[10px]">
+                        <form>
+                            <div class="mb-[5px]">
+                                <input class="text-[#9ca3a9] rounded-[10px] py-[10px] pr-[130px] pl-2 bg-[#101630]"
+                                    type="text" name="name" id="name" placeholder="Name">
+                            </div>
+                            <div class="mb-[5px]">
+                                <input class="text-[#9ca3a9] rounded-[10px] py-[10px] pr-[130px] pl-2 bg-[#101630]"
+                                    type="email" name="email" id="email" placeholder="Email">
+                            </div>
+                            <div class="mb-[10px]">
+                                <textarea
+                                    class="text-[#9ca3a9] rounded-[10px] pt-[10px] pr-[147px] pb-[53px] pl-2 bg-[#101630]"
+                                    name="msg" id="msg" placeholder="Message  "></textarea>
+                            </div>
+                            <div>
+                                <button
+                                    class="bg-[#101630] text-[white] text-center px-[50px] text-[20px] py-[10px] rounded-[10px] hover:drop-shadow-xl/50 drop-shadow-black-500/50"
+                                    type="submit"><b>Send</b></button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="text-center">
-            ___________________________________________________________________________________________________________________________________________________________________
-        </div>
-        <div>
-            <div class="flex justify-between">
-                <div>
-                    <img style="width: 120px;margin-left: 82px ;"
-                        src="https://scontent.fktm6-1.fna.fbcdn.net/v/t1.15752-9/491023159_1437953790898756_8260300964402222536_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Z88SVMehKc0Q7kNvwEys4k5&_nc_oc=AdlmW_TDT7dSuA1Z3H2gX8f8FV0CBAANkR5A19bPeEVZx9D5kl0w7olV-jmm4DE1Z4c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fktm6-1.fna&oh=03_Q7cD2AE6-LzOcBTqLvp-Xq8aoiKhPHcY4RtAuSA4uWIJ3TDXJQ&oe=6832ABC2"
-                        alt="Logo">
-                </div>
-                <div class="flex items-center">
+            <div class="text-center">
+
+            </div>
+            <div>
+                <div class="flex justify-between">
                     <div>
-                        <p>
-                            sayokrai2009@gmail.com
-                        </p>
+                        <img style="width: 120px;margin-left: 82px ;"
+                            src="https://scontent.fktm6-1.fna.fbcdn.net/v/t1.15752-9/491023159_1437953790898756_8260300964402222536_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Z88SVMehKc0Q7kNvwEys4k5&_nc_oc=AdlmW_TDT7dSuA1Z3H2gX8f8FV0CBAANkR5A19bPeEVZx9D5kl0w7olV-jmm4DE1Z4c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fktm6-1.fna&oh=03_Q7cD2AE6-LzOcBTqLvp-Xq8aoiKhPHcY4RtAuSA4uWIJ3TDXJQ&oe=6832ABC2"
+                            alt="Logo">
                     </div>
-                </div>
-                <div class="flex gap-[10px]">
-                    <div class="m-auto py-[20px] px-[25px] rounded-[10px] bg-linear-to-r from-[#4d9dd6] to-[#4724be] hover:drop-shadow-2xl/100 drop-shadow-[#4fb7dc]">
-                        <a href="https://www.facebook.com/SayokFB/" target="_blank">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
+                    <div class="flex items-center">
+                        <div>
+                            <p>
+                                sayokrai2009@gmail.com
+                            </p>
+                        </div>
                     </div>
-                    <div class="m-auto py-[20px] px-[25px] rounded-[10px] bg-linear-to-r from-[#4d9dd6] to-[#4724be] hover:drop-shadow-2xl/100 drop-shadow-[#4fb7dc]">
-                        <a href="https://www.instagram.com/sayokig/" target="_blank">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
+                    <div class="flex gap-[10px]">
+                        <div
+                            class="m-auto py-[20px] px-[25px] rounded-[10px] bg-linear-to-r from-[#4d9dd6] to-[#4724be] hover:drop-shadow-2xl/100 drop-shadow-[#4fb7dc]">
+                            <a href="https://www.facebook.com/SayokFB/" target="_blank">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div
+                            class="m-auto py-[20px] px-[25px] rounded-[10px] bg-linear-to-r from-[#4d9dd6] to-[#4724be] hover:drop-shadow-2xl/100 drop-shadow-[#4fb7dc]">
+                            <a href="https://www.instagram.com/sayokig/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div
+                            class="m-auto py-[20px] px-[25px] rounded-[10px] bg-linear-to-r from-[#4d9dd6] to-[#4724be] hover:drop-shadow-2xl/100 drop-shadow-[#4fb7dc]">
+                            <a href="https://github.com/SayokRai" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                        <div
+                            class="m-auto py-[20px] px-[25px] rounded-[10px] bg-linear-to-r from-[#4d9dd6] to-[#4724be] hover:drop-shadow-2xl/100 drop-shadow-[#4fb7dc] mr-[97px]">
+                            <a href="https://www.linkedin.com/in/sayok-rai-b0823235b/" target="_blank">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
                     </div>
-                    <div class="m-auto py-[20px] px-[25px] rounded-[10px] bg-linear-to-r from-[#4d9dd6] to-[#4724be] hover:drop-shadow-2xl/100 drop-shadow-[#4fb7dc]">
-                        <a href="https://github.com/SayokRai" target="_blank">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                    </div>
-                    <div class="m-auto py-[20px] px-[25px] rounded-[10px] bg-linear-to-r from-[#4d9dd6] to-[#4724be] hover:drop-shadow-2xl/100 drop-shadow-[#4fb7dc] mr-[97px]">
-                        <a href="https://www.linkedin.com/in/sayok-rai-b0823235b/" target="_blank">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-                    </div>
-                </div>
 
+                </div>
             </div>
         </div>
-       </div>
         <!-- <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script> -->
         <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     </footer>

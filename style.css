@@ -37,3 +37,9 @@ div.pic {
 body {
     max-width: auto;  
 }
+
+
+.yoo{
+    box-shadow: 16px 16px #4fb7dc;
+    border-radius: 16px;
+}
